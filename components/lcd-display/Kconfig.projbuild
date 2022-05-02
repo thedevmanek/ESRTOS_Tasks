@@ -1,0 +1,9 @@
+menu "LCD Configuration"
+
+    config LCD_TEXT
+        string "LCD TEXT"
+        default "Hello World"
+        help
+            Text to display on LCD screen
+
+endmenu
